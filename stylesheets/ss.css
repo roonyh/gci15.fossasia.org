@@ -21,14 +21,19 @@ svg {
   z-index: 2;
   position: absolute;
   top: 0;
-  width: 12%;
-  height: 50%;
+  width: 6%;
+  height: 100%;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
   will-change: opacity;
   opacity: 0;
 }
-
+h2.equal_pad.slide__text-heading{
+margin-bottom: 3px;
+}
+p.equal_pad.slide__text-desc{
+    margin-bottom: 3px;
+}
 .slider-control:not(.inactive):hover {
   opacity: 1;
   cursor: pointer;
